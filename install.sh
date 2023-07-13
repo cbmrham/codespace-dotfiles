@@ -1,10 +1,7 @@
 #!/bin/bash
 
-export TEST_ENV=test
-
 # cat bashrc.additions >> ~/.bashrc
-# cp ./.gitmessage ~
-# cp ./.gitconfig ~
+cp ./.gitconfig ~
 
 # powerline fonts for zsh agnoster theme
 git clone https://github.com/powerline/fonts.git
@@ -16,7 +13,7 @@ cd .. && rm -rf fonts
 wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh || true
 zsh -c 'git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions'
 zsh -c 'git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting'
-# cp ./.zshrc ~
+cp ./.zshrc ~
 
 ########################################################################################################################
 #### set agnoster as theme, this came from https://gist.github.com/corentinbettiol/21a6d4e942a0ee58d51acb7996697a88
