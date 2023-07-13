@@ -1,5 +1,6 @@
 #!/bin/bash
 
+export TEST_ENV=test
 
 # cat bashrc.additions >> ~/.bashrc
 # cp ./.gitmessage ~
